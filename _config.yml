@@ -2,6 +2,7 @@ title: "codercuy"
 email: wowthemesnet@gmail.com
 timezone: UTC
 baseurl: ""
+url: "https://codercuy.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
