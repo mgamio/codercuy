@@ -1,0 +1,47 @@
+I"=
+<p>Object-oriented concepts give you a solid foundation for making critical design decisions.</p>
+
+<h3 id="class">Class</h3>
+
+<p>A class is a template or prototype that describes what an object will be. It defines its attributes(data) and behavior(methods). We must design a class before creating an object.</p>
+
+<h3 id="object">Object</h3>
+
+<p>An object is an instance of a class. When we create an object, we create real-world entities such as auto, bicycles, or dogs with their own attributes and own behaviors.</p>
+
+<p>In Java we instantiate an object via the <em>new</em> keyword. When you design a class follow the <a href="https://codersite.dev/solid-principles-the-definitive-guide/">Single Resposibility Principle (SRP)</a></p>
+
+<h3 id="abstraction">Abstraction</h3>
+
+<p>Abstraction allows an object telling to its users what an application does instead of how it does it. You can see the essential buttons in your TV remote control, but you don’t care what happens behind when you press one of these buttons. In Java, we create abstractions via Interfaces and Abstract classes.</p>
+
+<h3 id="encapsulation-and-data-hiding">Encapsulation and Data Hiding</h3>
+
+<p>Restricting access to specific attributes and methods is called <em>data hiding</em>. Objects should not manipulate the data of other objects.</p>
+
+<p>Encapsulation is the action to combine the data and methods in the same entity. In this way, we control access to the data in the object.</p>
+
+<h3 id="inheritance">Inheritance</h3>
+
+<p>La herencia es un proceso en el que una clase hereda los atributos y métodos de otra clase.</p>
+
+<p>Inheritance provides the ability to create new classes with new functionalities maintaining the functionalities inherited. In this way, it promotes code reusability.</p>
+
+<p>In Java, we create inheritance between classes via the <em>extends</em> keyword.</p>
+
+<h3 id="polymorphism">Polymorphism</h3>
+
+<p>Polymorphism means many shapes and is coupled to inheritance. For example, a Shape class defines a <em>draw</em> method, but Square and Circle’s subclasses will implement it differently.</p>
+
+<h3 id="advantanges-of-object-oriented-programming">Advantanges of object-oriented programming</h3>
+
+<ul>
+  <li>Your program focus on data, not on functions. You create a program using objects, not functions.</li>
+  <li>You define methods to control the access to its data.</li>
+  <li>Objects communicate through methods - messages</li>
+  <li>Application adapts to new changes.</li>
+  <li>Objects has unique responsibilities.</li>
+  <li>You don’t define global data. Every object contains its data.</li>
+</ul>
+
+:ET
