@@ -30,7 +30,7 @@ Encapsulation is the action to combine the data and methods in the same entity. 
 
 ### Inheritance
 
-La herencia es un proceso en el que una clase hereda los atributos y métodos de otra clase.
+Inheritance is a process in which a class inherits the attributes and methods of another class.
 
 Inheritance provides the ability to create new classes with new functionalities maintaining the functionalities inherited. In this way, it promotes code reusability.
 
