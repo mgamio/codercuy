@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2022-04-02T15:49:18+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">codercuy</title><author><name>Moises Gamio</name></author><entry><title type="html">Spring Boot and OAuth2</title><link href="http://localhost:4000/spring-boot-oauth2/" rel="alternate" type="text/html" title="Spring Boot and OAuth2" /><published>2022-03-20T00:00:00+00:00</published><updated>2022-03-20T00:00:00+00:00</updated><id>http://localhost:4000/spring%20boot%20oauth2</id><content type="html" xml:base="http://localhost:4000/spring-boot-oauth2/"><![CDATA[<p>This tutorial will show how to integrate OAuth2 with Spring Security in a Spring Boot application.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2022-04-02T16:06:34+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">codercuy</title><author><name>Moises Gamio</name></author><entry><title type="html">Understanding Object-Oriented Programming concepts</title><link href="http://localhost:4000/understanding-oop-concepts/" rel="alternate" type="text/html" title="Understanding Object-Oriented Programming concepts" /><published>2022-04-02T00:00:00+00:00</published><updated>2022-04-02T00:00:00+00:00</updated><id>http://localhost:4000/understanding-oop-concepts</id><content type="html" xml:base="http://localhost:4000/understanding-oop-concepts/"><![CDATA[<p>Object-oriented concepts give you a solid foundation for making critical design decisions.</p>
+
+<h3 id="class">Class</h3>
+
+<p>A class is a template or prototype that describes what an object will be. It defines its attributes(data) and behavior(methods). We must design a class before creating an object.</p>
+
+<h3 id="object">Object</h3>
+
+<p>An object is an instance of a class. When we create an object, we create real-world entities such as auto, bicycles, or dogs with their own attributes and own behaviors.</p>
+
+<p>In Java we instantiate an object via the <em>new</em> keyword. When you design a class follow the <a href="https://codersite.dev/solid-principles-the-definitive-guide/">Single Resposibility Principle (SRP)</a></p>
+
+<h3 id="abstraction">Abstraction</h3>
+
+<p>Abstraction allows an object telling to its users what an application does instead of how it does it. You can see the essential buttons in your TV remote control, but you don’t care what happens behind when you press one of these buttons. In Java, we create abstractions via Interfaces and Abstract classes.</p>
+
+<h3 id="encapsulation-and-data-hiding">Encapsulation and Data Hiding</h3>
+
+<p>Restricting access to specific attributes and methods is called <em>data hiding</em>. Objects should not manipulate the data of other objects.</p>
+
+<p>Encapsulation is the action to combine the data and methods in the same entity. In this way, we control access to the data in the object.</p>
+
+<h3 id="inheritance">Inheritance</h3>
+
+<p>La herencia es un proceso en el que una clase hereda los atributos y métodos de otra clase.</p>
+
+<p>Inheritance provides the ability to create new classes with new functionalities maintaining the functionalities inherited. In this way, it promotes code reusability.</p>
+
+<p>In Java, we create inheritance between classes via the <em>extends</em> keyword.</p>
+
+<h3 id="polymorphism">Polymorphism</h3>
+
+<p>Polymorphism means many shapes and is coupled to inheritance. For example, a Shape class defines a <em>draw</em> method, but Square and Circle’s subclasses will implement it differently.</p>
+
+<h3 id="advantanges-of-object-oriented-programming">Advantanges of object-oriented programming</h3>
+
+<ul>
+  <li>Your program focus on data, not on functions. You create a program using objects, not functions.</li>
+  <li>You define methods to control the access to its data.</li>
+  <li>Objects communicate through methods - messages</li>
+  <li>Application adapts to new changes.</li>
+  <li>Objects has unique responsibilities.</li>
+  <li>You don’t define global data. Every object contains its data.</li>
+</ul>]]></content><author><name>moises</name></author><category term="oop" /><category term="tutorial" /><summary type="html"><![CDATA[Object-oriented concepts give you a solid foundation for making critical design decisions.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/oop.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/oop.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Spring Boot and OAuth2</title><link href="http://localhost:4000/spring-boot-oauth2/" rel="alternate" type="text/html" title="Spring Boot and OAuth2" /><published>2022-03-20T00:00:00+00:00</published><updated>2022-03-20T00:00:00+00:00</updated><id>http://localhost:4000/spring%20boot%20oauth2</id><content type="html" xml:base="http://localhost:4000/spring-boot-oauth2/"><![CDATA[<p>This tutorial will show how to integrate OAuth2 with Spring Security in a Spring Boot application.</p>
 
 <p>The Spring Boot application I am going to use is based on my previous article: <a href="https://codersite.dev/documenting-rest-api-openapi3/">Documenting a SpringBoot REST API with OpenAPI 3</a></p>
 
@@ -48,7 +91,7 @@
   </li>
 </ul>
 
-<p>The  Client Credentials grant type is the most appropriate for server-to-server applications, such as typical B2B interactions.</p>]]></content><author><name>moises</name></author><category term="Jekyll" /><category term="tutorial" /><summary type="html"><![CDATA[This tutorial will show how to integrate OAuth2 with Spring Security in a Spring Boot application.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/oauthRoles.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/oauthRoles.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Powerful things you can do with the Markdown editor</title><link href="http://localhost:4000/powerful-things-markdown-editor/" rel="alternate" type="text/html" title="Powerful things you can do with the Markdown editor" /><published>2020-01-12T00:00:00+00:00</published><updated>2020-01-12T00:00:00+00:00</updated><id>http://localhost:4000/powerful-things-markdown-editor</id><content type="html" xml:base="http://localhost:4000/powerful-things-markdown-editor/"><![CDATA[<p>There are lots of powerful things you can do with the Markdown editor</p>
+<p>The  Client Credentials grant type is the most appropriate for server-to-server applications, such as typical B2B interactions.</p>]]></content><author><name>moises</name></author><category term="Jekyll" /><category term="tutorial" /><summary type="html"><![CDATA[This tutorial will show how to integrate OAuth2 with Spring Security in a Spring Boot application.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/oauthRoles.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/oauthRoles.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Powerful things you can do with the Markdown editor</title><link href="http://localhost:4000/powerful-things-markdown-editor/" rel="alternate" type="text/html" title="Powerful things you can do with the Markdown editor" /><published>2022-01-12T00:00:00+00:00</published><updated>2022-01-12T00:00:00+00:00</updated><id>http://localhost:4000/powerful-things-markdown-editor</id><content type="html" xml:base="http://localhost:4000/powerful-things-markdown-editor/"><![CDATA[<p>There are lots of powerful things you can do with the Markdown editor</p>
 
 <p>If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!</p>
 
@@ -87,47 +130,4 @@
 
 <p>Perhaps the best part of Markdown is that you’re never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here’s a standard YouTube embed code as an example:</p>
 
-<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe></p>]]></content><author><name>moises</name></author><category term="Jekyll" /><category term="tutorial" /><summary type="html"><![CDATA[There are lots of powerful things you can do with the Markdown editor]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/4.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/4.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Understanding Object-Oriented Programming concepts</title><link href="http://localhost:4000/understanding-oop-concepts/" rel="alternate" type="text/html" title="Understanding Object-Oriented Programming concepts" /><published>2019-01-12T00:00:00+00:00</published><updated>2019-01-12T00:00:00+00:00</updated><id>http://localhost:4000/understanding-oop-concepts</id><content type="html" xml:base="http://localhost:4000/understanding-oop-concepts/"><![CDATA[<p>Object-oriented concepts give you a solid foundation for making critical design decisions.</p>
-
-<h3 id="class">Class</h3>
-
-<p>A class is a template or prototype that describes what an object will be. It defines its attributes(data) and behavior(methods). We must design a class before creating an object.</p>
-
-<h3 id="object">Object</h3>
-
-<p>An object is an instance of a class. When we create an object, we create real-world entities such as auto, bicycles, or dogs with their own attributes and own behaviors.</p>
-
-<p>In Java we instantiate an object via the <em>new</em> keyword. When you design a class follow the <a href="https://codersite.dev/solid-principles-the-definitive-guide/">Single Resposibility Principle (SRP)</a></p>
-
-<h3 id="abstraction">Abstraction</h3>
-
-<p>Abstraction allows an object telling to its users what an application does instead of how it does it. You can see the essential buttons in your TV remote control, but you don’t care what happens behind when you press one of these buttons. In Java, we create abstractions via Interfaces and Abstract classes.</p>
-
-<h3 id="encapsulation-and-data-hiding">Encapsulation and Data Hiding</h3>
-
-<p>Restricting access to specific attributes and methods is called <em>data hiding</em>. Objects should not manipulate the data of other objects.</p>
-
-<p>Encapsulation is the action to combine the data and methods in the same entity. In this way, we control access to the data in the object.</p>
-
-<h3 id="inheritance">Inheritance</h3>
-
-<p>La herencia es un proceso en el que una clase hereda los atributos y métodos de otra clase.</p>
-
-<p>Inheritance provides the ability to create new classes with new functionalities maintaining the functionalities inherited. In this way, it promotes code reusability.</p>
-
-<p>In Java, we create inheritance between classes via the <em>extends</em> keyword.</p>
-
-<h3 id="polymorphism">Polymorphism</h3>
-
-<p>Polymorphism means many shapes and is coupled to inheritance. For example, a Shape class defines a <em>draw</em> method, but Square and Circle’s subclasses will implement it differently.</p>
-
-<h3 id="advantanges-of-object-oriented-programming">Advantanges of object-oriented programming</h3>
-
-<ul>
-  <li>Your program focus on data, not on functions. You create a program using objects, not functions.</li>
-  <li>You define methods to control the access to its data.</li>
-  <li>Objects communicate through methods - messages</li>
-  <li>Application adapts to new changes.</li>
-  <li>Objects has unique responsibilities.</li>
-  <li>You don’t define global data. Every object contains its data.</li>
-</ul>]]></content><author><name>moises</name></author><category term="oop" /><category term="tutorial" /><summary type="html"><![CDATA[Object-oriented concepts give you a solid foundation for making critical design decisions.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/oop.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/oop.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe></p>]]></content><author><name>moises</name></author><category term="Jekyll" /><category term="tutorial" /><summary type="html"><![CDATA[There are lots of powerful things you can do with the Markdown editor]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/4.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/4.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
