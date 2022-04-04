@@ -15,17 +15,17 @@
 <meta property="og:locale" content="en_us" />
 <meta name="description" content="This tutorial will show how to integrate OAuth2 with Spring Security in a Spring Boot application." />
 <meta property="og:description" content="This tutorial will show how to integrate OAuth2 with Spring Security in a Spring Boot application." />
-<link rel="canonical" href="http://localhost:4000/spring-boot-oauth2/" />
-<meta property="og:url" content="http://localhost:4000/spring-boot-oauth2/" />
+<link rel="canonical" href="https://codercuy.com/spring-boot-oauth2/" />
+<meta property="og:url" content="https://codercuy.com/spring-boot-oauth2/" />
 <meta property="og:site_name" content="codercuy" />
-<meta property="og:image" content="http://localhost:4000/assets/images/oauthRoles.jpg" />
+<meta property="og:image" content="https://codercuy.com/assets/images/oauthRoles.jpg" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-03-20T00:00:00+00:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="http://localhost:4000/assets/images/oauthRoles.jpg" />
+<meta property="twitter:image" content="https://codercuy.com/assets/images/oauthRoles.jpg" />
 <meta property="twitter:title" content="Spring Boot and OAuth2" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"moises"},"dateModified":"2022-03-20T00:00:00+00:00","datePublished":"2022-03-20T00:00:00+00:00","description":"This tutorial will show how to integrate OAuth2 with Spring Security in a Spring Boot application.","headline":"Spring Boot and OAuth2","image":"http://localhost:4000/assets/images/oauthRoles.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/spring-boot-oauth2/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"moises"},"url":"http://localhost:4000/spring-boot-oauth2/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"moises"},"dateModified":"2022-03-20T00:00:00+00:00","datePublished":"2022-03-20T00:00:00+00:00","description":"This tutorial will show how to integrate OAuth2 with Spring Security in a Spring Boot application.","headline":"Spring Boot and OAuth2","image":"https://codercuy.com/assets/images/oauthRoles.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://codercuy.com/spring-boot-oauth2/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://codercuy.com/assets/images/logo.png"},"name":"moises"},"url":"https://codercuy.com/spring-boot-oauth2/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -35,6 +35,17 @@
 <link href="/assets/css/custom.css" rel="stylesheet">
 <!-- custom CSS end-->
     
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LMP8PBTBG2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LMP8PBTBG2');
+  gtag('set', 'anonymizeIp', true)
+</script>
+  
 
    
 </head>   
@@ -232,43 +243,43 @@
     <h3>Share this Article:</h3>
 
     <div class="share-buttons">
-        <a  href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/spring-boot-oauth2/"
+        <a  href="https://www.facebook.com/sharer/sharer.php?u=https://codercuy.com/spring-boot-oauth2/"
             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
             title="Share on Facebook" >
             <i class="fa fa-facebook-official share-button"> facebook</i>
         </a>
 
-        <a  href="https://twitter.com/intent/tweet?text=Spring Boot and OAuth2&url=http://localhost:4000/spring-boot-oauth2/"
+        <a  href="https://twitter.com/intent/tweet?text=Spring Boot and OAuth2&url=https://codercuy.com/spring-boot-oauth2/"
             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
             title="Share on Twitter" >
             <i class="fa fa-twitter share-button"> twitter</i>
         </a>
 
-        <a  href="http://pinterest.com/pin/create/button/?url=http://localhost:4000/spring-boot-oauth2/"
+        <a  href="http://pinterest.com/pin/create/button/?url=https://codercuy.com/spring-boot-oauth2/"
             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
             title="Share on Pinterest" >
             <i class="fa fa-pinterest-p share-button"> pinterest</i>
         </a>
 
-        <a  href="http://www.tumblr.com/share/link?url=http://localhost:4000/spring-boot-oauth2/"
+        <a  href="http://www.tumblr.com/share/link?url=https://codercuy.com/spring-boot-oauth2/"
             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
             title="Share on Tumblr" >
             <i class="fa fa-tumblr share-button"> tumblr</i>
         </a>
 
-        <a  href="http://www.reddit.com/submit?url=http://localhost:4000/spring-boot-oauth2/"
+        <a  href="http://www.reddit.com/submit?url=https://codercuy.com/spring-boot-oauth2/"
             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
             title="Share on Reddit" >
             <i class="fa fa-reddit-alien share-button"> reddit</i>
         </a>
 
-        <a  href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/spring-boot-oauth2/&title=Spring Boot and OAuth2&summary=&source=codercuy"
+        <a  href="https://www.linkedin.com/shareArticle?mini=true&url=https://codercuy.com/spring-boot-oauth2/&title=Spring Boot and OAuth2&summary=&source=codercuy"
             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
             title="Share on LinkedIn" >
             <i class="fa fa-linkedin share-button"> linkedin</i>
         </a>
 
-        <a  href="mailto:?subject=Spring Boot and OAuth2&amp;body=Check out this site http://localhost:4000/spring-boot-oauth2/"
+        <a  href="mailto:?subject=Spring Boot and OAuth2&amp;body=Check out this site https://codercuy.com/spring-boot-oauth2/"
             title="Share via Email" >
             <i class="fa fa-envelope share-button"> email</i>
         </a>
@@ -363,12 +374,12 @@
             <div class="row PageNavigation mt-4 prevnextlinks d-flex justify-content-between">
               
                 <div class="col-md-6 rightborder pl-0">
-                    <a class="thepostlink" href="http://localhost:4000/powerful-things-markdown-editor/">&laquo; Powerful things you can do with the Markdown editor</a>
+                    <a class="thepostlink" href="https://codercuy.com/powerful-things-markdown-editor/">&laquo; Powerful things you can do with the Markdown editor</a>
                 </div>
               
               
                 <div class="col-md-6 text-right pr-0">
-                    <a class="thepostlink" href="http://localhost:4000/understanding-oop-concepts/">Understanding Object-Oriented Programming concepts &raquo;</a>
+                    <a class="thepostlink" href="https://codercuy.com/understanding-oop-concepts/">Understanding Object-Oriented Programming concepts &raquo;</a>
                 </div>
               
             </div>
