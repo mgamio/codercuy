@@ -9,13 +9,13 @@ This tutorial will show how to integrate OAuth2 with Spring Security in a Spring
 
 The Spring Boot application I am going to use is based on my previous article: <a href="https://codersite.dev/documenting-rest-api-openapi3/">Documenting a SpringBoot REST API with OpenAPI 3</a>
 
-### OAuth
+## OAuth
 
 <a href="https://datatracker.ietf.org/doc/html/rfc6749">OAuth</a> is an authorization framework many companies use to secure access to its protected resources. It performs this by using access tokens.
 
 The token represents a delegated right of access on behalf of the resource owner.
 
-### Roles
+## Roles
 
 OAuth defines four roles
 
@@ -27,7 +27,7 @@ OAuth defines four roles
 
 - Authorization Server – responsible for authenticating user’s identity and gives an authorization token.
 
-### Authorization grant
+## Authorization grant
 
 An authorization grant is a credential representing the resource owner's authorization used by the client to obtain an access token.
 
@@ -43,3 +43,14 @@ OAuth defines four grant types.
 
 The  Client Credentials grant type is the most appropriate for server-to-server applications, such as typical B2B interactions.
 
+### Gettin Started
+
+We add the Spring oauth dependency to our pom.xml file.
+
+{% highlight ruby %}
+<dependency>
+  <groupId>org.springframework.security.oauth.boot</groupId>
+  <artifactId>spring-security-oauth2-autoconfigure</artifactId>
+  <version>2.5.1</version>
+</dependency>
+{% endhighlight %}

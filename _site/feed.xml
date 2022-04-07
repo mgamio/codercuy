@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://codercuy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://codercuy.com/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2022-04-06T21:21:10+00:00</updated><id>https://codercuy.com/feed.xml</id><title type="html">codercuy</title><author><name>Moises Gamio</name></author><entry><title type="html">Understanding Object-Oriented Programming concepts</title><link href="https://codercuy.com/understanding-oop-concepts/" rel="alternate" type="text/html" title="Understanding Object-Oriented Programming concepts" /><published>2022-04-02T00:00:00+00:00</published><updated>2022-04-02T00:00:00+00:00</updated><id>https://codercuy.com/understanding-oop-concepts</id><content type="html" xml:base="https://codercuy.com/understanding-oop-concepts/"><![CDATA[<p>Object-oriented concepts give you a solid foundation for making critical design decisions.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://codercuy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://codercuy.com/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2022-04-07T07:16:05+00:00</updated><id>https://codercuy.com/feed.xml</id><title type="html">codercuy</title><author><name>Moises Gamio</name></author><entry><title type="html">Understanding Object-Oriented Programming concepts</title><link href="https://codercuy.com/understanding-oop-concepts/" rel="alternate" type="text/html" title="Understanding Object-Oriented Programming concepts" /><published>2022-04-02T00:00:00+00:00</published><updated>2022-04-02T00:00:00+00:00</updated><id>https://codercuy.com/understanding-oop-concepts</id><content type="html" xml:base="https://codercuy.com/understanding-oop-concepts/"><![CDATA[<p>Object-oriented concepts give you a solid foundation for making critical design decisions.</p>
 
-<h3 id="class">Class</h3>
+<h2 id="class">Class</h2>
 
 <p>A class is a template or prototype that describes what an object will be. It defines its attributes(data) and behavior(methods). We must design a class before creating an object.</p>
 
-<h3 id="object">Object</h3>
+<h2 id="object">Object</h2>
 
 <p>An object is an instance of a class. When we create an object, we create real-world entities such as auto, bicycles, or dogs with their own attributes and own behaviors.</p>
 
 <p>In Java we instantiate an object via the <em>new</em> keyword. When you design a class follow the <a href="https://codersite.dev/solid-principles-the-definitive-guide/">Single Resposibility Principle (SRP)</a></p>
 
-<h3 id="abstraction">Abstraction</h3>
+<h2 id="abstraction">Abstraction</h2>
 
 <p>Abstraction allows an object telling to its users what an application does instead of how it does it. You can see the essential buttons in your TV remote control, but you don’t care what happens behind when you press one of these buttons. In Java, we create abstractions via Interfaces and Abstract classes.</p>
 
-<h3 id="encapsulation-and-data-hiding">Encapsulation and Data Hiding</h3>
+<h2 id="encapsulation-and-data-hiding">Encapsulation and Data Hiding</h2>
 
 <p>Restricting access to specific attributes and methods is called <em>data hiding</em>. Objects should not manipulate the data of other objects.</p>
 
 <p>Encapsulation is the action to combine the data and methods in the same entity. In this way, we control access to the data in the object.</p>
 
-<h3 id="inheritance">Inheritance</h3>
+<h2 id="inheritance">Inheritance</h2>
 
 <p>Inheritance is a process in which a class inherits the attributes and methods of another class.</p>
 
@@ -28,11 +28,11 @@
 
 <p>In Java, we create inheritance between classes via the <em>extends</em> keyword.</p>
 
-<h3 id="polymorphism">Polymorphism</h3>
+<h2 id="polymorphism">Polymorphism</h2>
 
 <p>Polymorphism means many shapes and is coupled to inheritance. For example, a Shape class defines a <em>draw</em> method, but Square and Circle’s subclasses will implement it differently.</p>
 
-<h3 id="advantanges-of-object-oriented-programming">Advantanges of object-oriented programming</h3>
+<h2 id="advantanges-of-object-oriented-programming">Advantanges of object-oriented programming</h2>
 
 <ul>
   <li>Your program focus on data, not on functions. You create a program using objects, not functions.</li>
@@ -45,13 +45,13 @@
 
 <p>The Spring Boot application I am going to use is based on my previous article: <a href="https://codersite.dev/documenting-rest-api-openapi3/">Documenting a SpringBoot REST API with OpenAPI 3</a></p>
 
-<h3 id="oauth">OAuth</h3>
+<h2 id="oauth">OAuth</h2>
 
 <p><a href="https://datatracker.ietf.org/doc/html/rfc6749">OAuth</a> is an authorization framework many companies use to secure access to its protected resources. It performs this by using access tokens.</p>
 
 <p>The token represents a delegated right of access on behalf of the resource owner.</p>
 
-<h3 id="roles">Roles</h3>
+<h2 id="roles">Roles</h2>
 
 <p>OAuth defines four roles</p>
 
@@ -70,7 +70,7 @@
   </li>
 </ul>
 
-<h3 id="authorization-grant">Authorization grant</h3>
+<h2 id="authorization-grant">Authorization grant</h2>
 
 <p>An authorization grant is a credential representing the resource owner’s authorization used by the client to obtain an access token.</p>
 
@@ -91,4 +91,14 @@
   </li>
 </ul>
 
-<p>The  Client Credentials grant type is the most appropriate for server-to-server applications, such as typical B2B interactions.</p>]]></content><author><name>moises</name></author><category term="Jekyll" /><category term="tutorial" /><summary type="html"><![CDATA[This tutorial will show how to integrate OAuth2 with Spring Security in a Spring Boot application.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://codercuy.com/assets/images/oauthRoles.jpg" /><media:content medium="image" url="https://codercuy.com/assets/images/oauthRoles.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>The  Client Credentials grant type is the most appropriate for server-to-server applications, such as typical B2B interactions.</p>
+
+<h3 id="gettin-started">Gettin Started</h3>
+
+<p>We add the Spring oauth dependency to our pom.xml file.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">dependency</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">groupId</span><span class="o">&gt;</span><span class="n">org</span><span class="p">.</span><span class="nf">springframework</span><span class="p">.</span><span class="nf">security</span><span class="p">.</span><span class="nf">oauth</span><span class="p">.</span><span class="nf">boot</span><span class="o">&lt;</span><span class="sr">/groupId&gt;
+  &lt;artifactId&gt;spring-security-oauth2-autoconfigure&lt;/</span><span class="n">artifactId</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">version</span><span class="o">&gt;</span><span class="mf">2.5</span><span class="o">.</span><span class="mi">1</span><span class="o">&lt;</span><span class="sr">/version&gt;
+&lt;/</span><span class="n">dependency</span><span class="o">&gt;</span></code></pre></figure>]]></content><author><name>moises</name></author><category term="Jekyll" /><category term="tutorial" /><summary type="html"><![CDATA[This tutorial will show how to integrate OAuth2 with Spring Security in a Spring Boot application.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://codercuy.com/assets/images/oauthRoles.jpg" /><media:content medium="image" url="https://codercuy.com/assets/images/oauthRoles.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

@@ -118,7 +118,7 @@
               </li>
               
               <li class="nav-item">
-                <a class="nav-link px-3 ml-2 btn btn-dark text-white px-3" href="https://codersite.dev/book/" alt="Coding interview">Coding interview</a>
+                <a class="nav-link px-3 ml-2 btn btn-dark text-white px-3" href="https://codersite.dev" alt="Coding interview">Coding interview</a>
               </li>
               
             </ul>
@@ -177,13 +177,13 @@
 
 <p>The Spring Boot application I am going to use is based on my previous article: <a href="https://codersite.dev/documenting-rest-api-openapi3/">Documenting a SpringBoot REST API with OpenAPI 3</a></p>
 
-<h3 id="oauth">OAuth</h3>
+<h2 id="oauth">OAuth</h2>
 
 <p><a href="https://datatracker.ietf.org/doc/html/rfc6749">OAuth</a> is an authorization framework many companies use to secure access to its protected resources. It performs this by using access tokens.</p>
 
 <p>The token represents a delegated right of access on behalf of the resource owner.</p>
 
-<h3 id="roles">Roles</h3>
+<h2 id="roles">Roles</h2>
 
 <p>OAuth defines four roles</p>
 
@@ -202,7 +202,7 @@
   </li>
 </ul>
 
-<h3 id="authorization-grant">Authorization grant</h3>
+<h2 id="authorization-grant">Authorization grant</h2>
 
 <p>An authorization grant is a credential representing the resource owner’s authorization used by the client to obtain an access token.</p>
 
@@ -224,6 +224,16 @@
 </ul>
 
 <p>The  Client Credentials grant type is the most appropriate for server-to-server applications, such as typical B2B interactions.</p>
+
+<h3 id="gettin-started">Gettin Started</h3>
+
+<p>We add the Spring oauth dependency to our pom.xml file.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">dependency</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">groupId</span><span class="o">&gt;</span><span class="n">org</span><span class="p">.</span><span class="nf">springframework</span><span class="p">.</span><span class="nf">security</span><span class="p">.</span><span class="nf">oauth</span><span class="p">.</span><span class="nf">boot</span><span class="o">&lt;</span><span class="sr">/groupId&gt;
+  &lt;artifactId&gt;spring-security-oauth2-autoconfigure&lt;/</span><span class="n">artifactId</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">version</span><span class="o">&gt;</span><span class="mf">2.5</span><span class="o">.</span><span class="mi">1</span><span class="o">&lt;</span><span class="sr">/version&gt;
+&lt;/</span><span class="n">dependency</span><span class="o">&gt;</span></code></pre></figure>
 
 
 				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9154513114335042"
