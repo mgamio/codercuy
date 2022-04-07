@@ -49,3 +49,4 @@ Polymorphism means many shapes and is coupled to inheritance. For example, a Sha
 - Objects has unique responsibilities.
 - You don't define global data. Every object contains its data.
 
+Learn how to use these concepts in <a href="https://codersite.dev/open-closed-principle/">SOLID design principles</a>.
