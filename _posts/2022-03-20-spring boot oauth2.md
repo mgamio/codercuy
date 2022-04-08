@@ -158,7 +158,7 @@ public class OpenApiConfig {
 
 Now, rerun the main application, and we can see a new green button called Authorize. Then enter the credentials and the scope.
 
-![oauth2Authorize](/assets/images/oauth2Authorize.jpg){:class="img-responsive"}
+![oauth2authorize](/assets/images/oauth2authorize.jpg){:class="img-responsive"}
 
 Close the pop-up and try out again to insert a book.
 
