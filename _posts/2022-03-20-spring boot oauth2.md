@@ -54,3 +54,116 @@ We add the Spring oauth dependency to our pom.xml file.
   <version>2.5.1</version>
 </dependency>
 {% endhighlight %}
+
+### Enable Authorization Server Support
+
+We open the main application class and add @EnableAuthorizationServer to enable the support for the authorization server. 
+
+{% highlight ruby %}
+@EnableAuthorizationServer
+@SpringBootApplication
+public class OpenapiApplication {
+	public static void main(String[] args) {
+		SpringApplication.run(OpenapiApplication.class, args);
+	}
+}
+{% endhighlight %}
+
+@EnableAuthorizationServer enables the client credentials grant type by default.
+
+### Creating ClientId and Client Secret
+
+Open/create the resources/application.yml file and add the following properties:
+
+{% highlight ruby %}
+security:
+  oauth2:
+    client:
+      client-id: codercuy-client
+      client-secret: strong-secret
+      scope:
+        - read
+        - write
+{% endhighlight %}
+
+Now, we need to tell Spring which endpoints -resources- must be authenticated. Otherwise, all requests will skip security.
+
+### Enable Resource Server Support
+
+Create a class that extends ResourceServerConfigurerAdapter and add the following code.
+
+{% highlight ruby %}
+@Configuration
+@EnableResourceServer
+public class OAuth2ResourceServer extends ResourceServerConfigurerAdapter
+{
+  @Override
+  public void configure(HttpSecurity http) throws Exception {
+    http
+            .authorizeRequests()
+            .antMatchers("/api/**").authenticated()
+            .antMatchers("/").permitAll();
+  }
+}
+{% endhighlight %}
+
+Now, run the main application.
+
+<a href="http://localhost:8080/swagger-ui.html" target="_blank">http://localhost:8080/swagger-ui.html</a>
+
+And try to insert a book (Try out button). In bookAuthorization parameter write anything ("key" for example).
+
+Then you receive an error.
+
+![oauth2Post](/assets/images/oauth2Post.jpg){:class="img-responsive"}
+
+Why this happens? Well, we need to tell openapi that configure security.
+
+### Configure openapi and oauth2
+
+Open OpenApiConfig class and add the new code.
+
+{% highlight ruby %}
+@Configuration
+public class OpenApiConfig {
+
+  @Bean
+  public OpenAPI customOpenAPI() {
+    return new OpenAPI()
+        .components(new Components()
+                .addSecuritySchemes("spring_oauth", new SecurityScheme()
+                        .type(SecurityScheme.Type.OAUTH2)
+                        .description("Oauth2 flow")
+                        .flows(new OAuthFlows()
+                                .clientCredentials(new OAuthFlow()
+                                        .tokenUrl("http://localhost:8080" + "/oauth/token")
+                                        .scopes(new Scopes()
+                                                .addString("read", "for read operations")
+                                                .addString("write", "for write operations")
+                                        ))))
+        )
+            .security(Arrays.asList(
+                    new SecurityRequirement().addList("spring_oauth")))
+        .info(new Info()
+            .title("Book Application API")
+            .description("This is a sample Spring Boot RESTful service using springdoc-openapi and OpenAPI 3.")
+            .termsOfService("terms")
+            .contact(new Contact().email("codersitedev@gmail.com").name("Developer: Moises Gamio"))
+            .license(new License().name("GNU"))
+            .version("2.0")
+        );
+  }
+}
+{% endhighlight %}
+
+Now, rerun the main application, and we can see a new green button called Authorize. Then enter the credentials and the scope.
+
+![oauth2Authorize](/assets/images/oauth2Authorize.jpg){:class="img-responsive"}
+
+Close the pop-up and try out again to insert a book.
+
+![oauth2PostOK](/assets/images/oauth2PostOK.jpg){:class="img-responsive"}
+
+Yes, you did it!
+
+Now, your endpoints are secured.
