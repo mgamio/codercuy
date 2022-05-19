@@ -16,6 +16,8 @@ A class is a template or prototype that describes what an object will be. It def
 
 An object is an instance of a class. When we create an object, we create real-world entities such as auto, bicycles, or dogs with their own attributes and own behaviors.
 
+![class and object](/assets/images/carClass.jpg){:class="img-responsive"}
+
 In Java we instantiate an object via the *new* keyword. When you design a class follow the <a href="https://codersite.dev/solid-principles-the-definitive-guide/">Single Resposibility Principle (SRP)</a>
 
 ## Abstraction
