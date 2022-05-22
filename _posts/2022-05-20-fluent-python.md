@@ -6,11 +6,11 @@ categories: [ Python ]
 image: assets/images/fluentPython.jpg
 ---
 
-Python’s simplicity lets you become productive quickly, but often this means you aren’t using everything it has to offer. With the updated edition of this hands-on guide, you’ll learn how to write effective, modern Python 3 code by leveraging its best ideas.
+Python's effortlessness allows you to become productive rapidly yet frequently; this implies you're not utilizing all it brings. With the refreshed release of this hands-on guide, you'll figure out how to compose compelling, current Python 3 code by using its best ideas.
 
-Don’t waste time bending Python to fit patterns you learned in other languages. Discover and apply idiomatic Python 3 features beyond your past experience. Author Luciano Ramalho guides you through Python’s core language features and libraries and teaches you how to make your code shorter, faster, and more readable.
+Don’t waste time bending Python to fit patterns you learned in other languages. Discover and apply idiomatic Python 3 features beyond your experience. Author Luciano Ramalho guides you through Python’s core language features and libraries and teaches you to make your code shorter, faster, and more readable.
 
-Featuring major updates throughout the book, Fluent Python, second edition, covers:
+Including significant updates all through the book, Fluent Python, the second version, covers:
 
 - Special methods: The key to the consistent behavior of Python objects
 - Data structures: Sequences, dicts, sets, Unicode, and data classes

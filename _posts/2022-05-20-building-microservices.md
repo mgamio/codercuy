@@ -6,9 +6,9 @@ categories: [ Microservices ]
 image: assets/images/buildingMicroservices.jpg
 ---
 
-As organizations shift from monolithic applications to smaller, self-contained microservices, distributed systems have become more fine-grained. But developing these new systems brings its own host of problems. This expanded second edition takes a holistic view of topics that you need to consider when building, managing, and scaling microservices architectures.
+As organizations shift from monolithic applications to smaller, self-contained microservices, distributed systems have become more fine-grained. But developing these new systems brings its host of problems. This expanded second edition takes a comprehensive view of topics you need to consider when building, managing, and scaling microservices architectures.
 
-Through clear examples and practical advice, author Sam Newman gives everyone from architects and developers to testers and IT operators a firm grounding in the concepts. You'll dive into the latest solutions for modeling, integrating, testing, deploying, and monitoring your own autonomous services. Real-world cases reveal how organizations today manage to get the most out of these architectures.
+Real-world cases reveal how organizations today manage to get the most out of these architectures. Through clear examples and practical advice, author Sam Newman gives everyone from architects and developers to testers and IT operators a firm grounding in the concepts. You’ll dive into the latest solutions for modeling, integrating, testing, deploying, and monitoring your autonomous services.
 
 Microservices technologies continue to move quickly. This book brings you up to speed.
 
