@@ -13,10 +13,6 @@ Email: codersitedev@gmail.com
 
 Tax number: 32/300/01607
 
-## Content policy
-
-The content published on this website is original, clear, and concise and is based on product reviews.
-
 ## Advertising policy
 
 We use affiliate links vendors, which we use in our product recommendations. When you click on those links and buy something, We earn a commission. In that way, you help us to support this website.
