@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Effective Java"
-author: moises
+author: codercuy
 categories: [ Java ]
 image: assets/images/effectiveJava.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Domain-Driven Design"
-author: moises
+author: codercuy
 categories: [ Domain-Driven Design ]
 image: assets/images/domainDrivenDesign.jpg
 ---

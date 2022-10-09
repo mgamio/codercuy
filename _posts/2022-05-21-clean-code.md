@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Clean Code"
-author: moises
+author: codercuy
 categories: [ Coding Practices ]
 image: assets/images/cleanCode.jpg
 ---

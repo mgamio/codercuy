@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Head First Design Patterns"
-author: moises
+author: codercuy
 categories: [ Design Patterns ]
 image: assets/images/headFirstDesignPatterns.jpg
 ---

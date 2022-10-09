@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Pragmatic Programmer"
-author: moises
+author: codercuy
 categories: [ Coding Practices ]
 image: assets/images/pragmaticProgrammer.jpg
 ---

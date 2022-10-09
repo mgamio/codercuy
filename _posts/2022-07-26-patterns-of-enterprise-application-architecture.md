@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Patterns of Enterprise Application Architecture"
-author: moises
+author: codercuy
 categories: [ Enterprise Architecture ]
 image: assets/images/patternsArchitecture.jpg
 ---

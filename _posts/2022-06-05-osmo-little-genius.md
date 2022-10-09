@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Osmo - Little Genius Starter Kit"
-author: moises
+author: codercuy
 categories: [ Educational Toys ]
 image: assets/images/osmoLittleGenius.jpg
 ---

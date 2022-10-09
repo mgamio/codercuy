@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Designing Data-Intensive Applications"
-author: moises
+author: codercuy
 categories: [ Data Engineering ]
 image: assets/images/designingDataIntensiveApplications.jpg
 ---

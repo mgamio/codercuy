@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Robo Wunderkind Robot"
-author: moises
+author: codercuy
 categories: [ Educational Toys ]
 image: assets/images/wunderkindRobot.jpg
 ---

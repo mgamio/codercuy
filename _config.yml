@@ -33,6 +33,15 @@ authors:
     twitter: https://twitter.com/MoisesGamio
     description: "Software Engineer. Comprehensive experience in all phases of the software development lifecycle for several economic sectors."
 
+  codercuy:
+    name: Codercuy
+    display_name: Codercuy
+    avatar: 'assets/images/logo.png'
+    email: codersitedev@gmail.com
+    web: https://codercuy.com/
+    twitter: https://codersite.dev/
+    description: "Codercuy recommends what matters."
+    
 # Social
 social:
   medium: https://medium.com/@mkgv89
