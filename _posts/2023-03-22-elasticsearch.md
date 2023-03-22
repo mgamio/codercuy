@@ -3,7 +3,7 @@ layout: post
 title:  "Elasticsearch"
 author: codercuy
 categories: [ distributed systems ]
-image: assets/images/elasticsearch.jpg
+image: assets/images/elasticSearch.jpg
 ---
 
 Elasticsearch is a popular search and analytics engine that is designed to store, search, and analyze large volumes of data quickly and in real-time. It is built on top of the Apache Lucene library and provides a distributed, scalable, and highly available solution for handling big data.
