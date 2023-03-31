@@ -5,11 +5,9 @@ permalink: /impressum/
 comments: false
 ---
 
-Hi, I am Moises, and this is my affiliate site.
+We promote knowledge of computing and everything related to information technology.
 
 Address: Berlin, Germany
-
-Email: codersitedev@gmail.com
 
 Tax number: 32/300/01607
 
