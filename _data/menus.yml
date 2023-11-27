@@ -10,9 +10,6 @@ topmenu:
 - title: Gifts
   url: "gifts/"
   
-- title: Contact
-  url: "contact/"
-  
 - title: for Developers  
   url: https://codersite.dev
   class: "ml-2 btn btn-dark text-white px-3"
@@ -26,9 +23,6 @@ footermenu:
 
 - title: Privacy Policy
   url: "privacy-policy/"
-
-- title: Contact
-  url: "contact/"
 
 - title: impressum
   url: "impressum/"
