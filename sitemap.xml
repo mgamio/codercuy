@@ -53,11 +53,6 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://codercuy.com/head-first-design-patterns/</loc>
-  <lastmod>2022-05-24T20:12:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://codercuy.com/effective-Java/</loc>
   <lastmod>2022-05-24T20:12:02+00:00</lastmod>
   <priority>0.80</priority>
@@ -78,11 +73,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://codercuy.com/robo-wunderkind-robot/</loc>
-  <lastmod>2022-07-24T20:12:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://codercuy.com/elasticsearch/</loc>
   <lastmod>2023-03-22T15:12:02+00:00</lastmod>
   <priority>0.80</priority>
@@ -93,22 +83,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://codercuy.com/software-design-principles/</loc>
-  <lastmod>2023-03-22T15:12:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://codercuy.com/soft-skills-software-development/</loc>
-  <lastmod>2023-03-22T15:12:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://codercuy.com/primitive-types-and-abstract-data-types/</loc>
-  <lastmod>2023-03-29T15:12:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://codercuy.com/best-startup-ideas-to-make-money/</loc>
   <lastmod>2023-03-29T15:12:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -139,6 +114,11 @@
 </url>
 <url>
   <loc>https://codercuy.com/web-dev-project-breakdown/</loc>
+  <lastmod>2023-11-29T13:12:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codercuy.com/java-functional-programming/</loc>
   <lastmod>2023-11-29T13:12:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
